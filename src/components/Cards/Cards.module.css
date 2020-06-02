@@ -1,0 +1,21 @@
+.container{
+    margin: 50px 0px;
+    width: 80%;
+}
+
+.card {
+    margin: 0 2% !important;
+    /* has to use !important in materialUI if not doing inline-style */
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0,0,225,0.5)
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0,225,225,0.5)
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(225,0,0,0.5)
+}
